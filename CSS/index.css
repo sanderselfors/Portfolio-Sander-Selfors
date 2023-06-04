@@ -409,9 +409,6 @@ h6 {
     padding-top: 30px;
     padding-bottom: 30px;
   }
-}
-
-@media (max-width: 800px) {
   .sander-pic {
     width: 150px;
     margin: 0 auto;
