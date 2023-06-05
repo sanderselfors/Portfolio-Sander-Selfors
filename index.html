@@ -8,17 +8,16 @@
     <meta name="author" content="Sander Selfors" />
     <link rel="stylesheet" href="/CSS/index.css" />
     <link rel="stylesheet" href="/CSS/animate.css" />
+
     <title>Home</title>
   </head>
   <body>
-    <div class="loader-wrapper">
-      <div class="loader"></div>
-    </div>
     <header id="home">
       <nav class="navbar">
         <div class="nav-logo">
           <a href="#home" class="nav-logo1">Selfors.</a>
         </div>
+
         <ul class="nav-menu">
           <li class="nav-item">
             <a href="#home" class="home-button">Home</a>
@@ -32,28 +31,34 @@
             <a href="#about" class="about-button">About</a>
           </li>
         </ul>
+
         <div class="hamburger">
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>
         </div>
       </nav>
+      <div class="sander-animate">
+        <img
+          src="/Images/IMG_0015-modified.png"
+          alt="Pic-of-SanderSelfors"
+          class="sander-pic"
+        />
+      </div>
 
-      <img
-        src="/Images/IMG_0015-modified.png"
-        alt="Pic-of-SanderSelfors"
-        class="sander-pic"
-      />
-
-      <h1>
-        <span style="font-weight: bold">Hi! </span><br />
-        I´m <span style="font-weight: bold">Sander Selfors, </span>Front-End
-        Developer.
-      </h1>
+      <div class="animate-h1">
+        <h1>
+          <span style="font-weight: bold">Hi! </span><br />
+          I´m <span style="font-weight: bold">Sander Selfors, </span>Front-End
+          Developer.
+        </h1>
+      </div>
     </header>
 
     <main>
-      <h2>My Projects</h2>
+      <div class="animate-h2">
+        <h2>My Projects</h2>
+      </div>
       <section class="rainydays-section" id="projects">
         <img
           src="/Images/Skjermbilde 2023-06-02 kl. 17.58.34.png"
@@ -188,7 +193,9 @@
           <a href="https://github.com/sanderselfors" class="mygithub-btn"
             >Visit My GitHub Profile</a
           >
-          <a href="https://exam1selfors.netlify.app/" class="contact-btn"
+          <a
+            href="mailto:sanderselfors@gmail.com?subject=Portfolio"
+            class="contact-btn"
             >Contact Me</a
           >
         </div>
@@ -200,7 +207,7 @@
         <h6>© 2023 Made by Sander Selfors</h6>
       </div>
     </footer>
-    <script type="module" src="/JS/hamburger.js"></script>
+    <script type="module" src="/JS/script.js"></script>
     <script type="module" src="/JS/loader.js"></script>
   </body>
 </html>

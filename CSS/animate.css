@@ -1,22 +1,75 @@
-.loader-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #ffffff;
+.animated-section {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 1s, transform 1s;
 }
 
-.loader {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  border: 7px solid #2e47df;
-  border-top-color: transparent;
-  animation: loader-spin 1.2s linear infinite;
+.animated-section.right {
+  transform: translateX(50px);
 }
 
-@keyframes loader-spin {
-  to {
-    transform: rotate(360deg);
-  }
+.animated-section.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.animated-div {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 1s, transform 1s;
+}
+
+.animated-div.right {
+  transform: translateX(50px);
+}
+
+.animated-div.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+.animated-p {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 1s, transform 1s;
+}
+
+.animated-p.right {
+  transform: translateX(50px);
+}
+
+.animated-p.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+.animated-a {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 1s, transform 1s;
+}
+
+.animated-a.right {
+  transform: translateX(50px);
+}
+
+.animated-a.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+.animated-img {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 1s, transform 1s;
+}
+
+.animated-img.right {
+  transform: translateX(50px);
+}
+
+.animated-img.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.sander-animate {
+  margin: 0 auto;
 }
