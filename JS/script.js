@@ -29,14 +29,19 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 
 var prevScrollPos = window.pageYOffset;
 var navbar = document.querySelector(".navbar");
+var headerHeight = document.querySelector("header").offsetHeight;
 
 window.addEventListener("scroll", function () {
   var currentScrollPos = window.pageYOffset;
 
-  if (prevScrollPos > currentScrollPos) {
-    navbar.classList.remove("navbar-hidden");
+  if (currentScrollPos > headerHeight) {
+    if (prevScrollPos > currentScrollPos) {
+      navbar.classList.remove("navbar-hidden");
+    } else {
+      navbar.classList.add("navbar-hidden");
+    }
   } else {
-    navbar.classList.add("navbar-hidden");
+    navbar.classList.remove("navbar-hidden");
   }
 
   prevScrollPos = currentScrollPos;
