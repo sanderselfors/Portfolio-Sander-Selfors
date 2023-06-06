@@ -74,7 +74,7 @@ var images = document.querySelectorAll("img");
 
 sections.forEach(function (section, index) {
   section.classList.add("animated-section");
-  if (index % 0 === 2) {
+  if (index % 2 === 0) {
     section.classList.add("right");
   }
   observer.observe(section);
