@@ -50,9 +50,14 @@ header {
   opacity: 90%;
   z-index: 1;
   transition: background-color 0.3s ease-in-out;
+  transition: transform 0.3s;
+}
+.navbar-hidden {
+  transform: translateY(-100%);
 }
 .navbar-scrolled {
   background-color: transparent;
+  overflow-x: hidden;
 }
 
 .nav-menu {
@@ -148,12 +153,12 @@ h3 {
   font-weight: normal;
   color: #01013d;
   text-align: center;
-  text-decoration: underline;
 }
 .rainydays-pic {
   width: 90%;
   height: 100%;
   max-width: 500px;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
 }
@@ -179,6 +184,7 @@ h3 {
   width: 500px;
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 30px;
   line-height: 2.5rem;
   color: #01013d;
   display: flex;
@@ -189,6 +195,7 @@ h3 {
   width: 90%;
   height: 100%;
   max-width: 500px;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
 }
@@ -224,6 +231,7 @@ h3 {
   width: 90%;
   height: 100%;
   max-width: 500px;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
 }
@@ -254,7 +262,6 @@ h3 {
   display: flex;
   flex-direction: column;
 }
-
 .github-btn {
   color: #01013d;
   margin: 0 auto;
@@ -262,25 +269,30 @@ h3 {
   font-size: 1.2rem;
   margin-top: 50px;
   margin-bottom: 20px;
-  transition: 0.3s ease;
+  transition: color 0.3s ease, transform 0.3s ease !important;
 }
+
 .github-btn:hover {
-  color: #2e47df;
+  color: #2e47df !important;
+  transform: scale(1.1) !important;
 }
+
 .website-btn {
   color: #ffffff;
   margin: 0 auto;
   background-color: #2e47df;
   font-size: 1.2rem;
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 9px;
+  padding-bottom: 9px;
   border-radius: 30px;
-  transition: 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease !important;
 }
+
 .website-btn:hover {
-  background-color: #01013d;
+  background-color: #01013d !important;
+  transform: scale(1.1) !important;
 }
 
 .about-section {
@@ -325,22 +337,32 @@ h5 {
 }
 .mygithub-btn:hover {
   color: #2e47df;
+  transition: 0.3s ease;
 }
 .contact-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #ffffff;
   margin: 0 auto;
   background-color: #2e47df;
   font-size: 1.2rem;
   padding-left: 70px;
   padding-right: 70px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   border-radius: 30px;
-  transition: 0.3s ease;
   margin-bottom: 30px;
+  margin-top: 30px;
+  transition: background-color 0.3s ease, transform 0.3s ease !important;
 }
 .contact-btn:hover {
-  background-color: #01013d;
+  background-color: #01013d !important;
+  transform: scale(1.1) !important;
+}
+.mail-icon {
+  width: 30px;
+  margin-left: 5px;
 }
 
 footer {
@@ -348,14 +370,35 @@ footer {
   height: 150px;
 }
 h6 {
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: normal;
-  padding-top: 60px;
+  padding-top: 10px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .copyright {
   color: #ffffff;
   text-align: center;
+  font-size: 1rem;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 30px;
+}
+.social-media-icon {
+  width: 50px;
+  transition: 300ms;
+  transition: background-color 0.3s ease, transform 0.3s ease !important;
+}
+.social-media-icon:hover {
+  transform: scale(1.2) !important;
+  border-radius: 5px;
 }
 
 @media (max-width: 800px) {
@@ -429,6 +472,14 @@ h6 {
     padding-bottom: 20px;
     padding-top: 20px;
   }
+  h6 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    padding-top: 10px;
+    text-align: center;
+    color: #ffffff;
+  }
+
   .rainydays-section {
     background-color: #ffffff;
     display: flex;
@@ -443,6 +494,7 @@ h6 {
     margin: 0 auto;
     border-radius: 30px;
   }
+
   .semesterproject-section {
     background-color: #ffffff;
     display: flex;
