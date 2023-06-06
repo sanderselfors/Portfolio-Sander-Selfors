@@ -27,21 +27,6 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   });
 });
 
-var prevScrollPos = window.pageYOffset;
-var navbar = document.querySelector(".navbar");
-
-window.addEventListener("scroll", function () {
-  var currentScrollPos = window.pageYOffset;
-
-  if (prevScrollPos > currentScrollPos) {
-    navbar.classList.remove("navbar-hidden");
-  } else {
-    navbar.classList.add("navbar-hidden");
-  }
-
-  prevScrollPos = currentScrollPos;
-});
-
 var navbar = document.querySelector(".navbar");
 
 var mainSection = document.querySelector("#home");
@@ -74,7 +59,7 @@ var images = document.querySelectorAll("img");
 
 sections.forEach(function (section, index) {
   section.classList.add("animated-section");
-  if (index % 2 === 0) {
+  if (index % 0 === 2) {
     section.classList.add("right");
   }
   observer.observe(section);
