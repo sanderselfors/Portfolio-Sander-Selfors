@@ -141,7 +141,6 @@ h1 {
 h2 {
   color: #ffffff;
   font-size: 3rem;
-  font-weight: normal;
   text-align: center;
   font-weight: bold;
   padding: 10px;
@@ -282,8 +281,8 @@ h3 {
   margin: 0 auto;
   background-color: #2e47df;
   font-size: 1.2rem;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 60px;
+  padding-right: 60px;
   padding-top: 9px;
   padding-bottom: 9px;
   border-radius: 30px;
