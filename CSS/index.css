@@ -55,7 +55,6 @@ header {
 }
 .navbar-scrolled {
   background-color: transparent;
-  overflow-x: hidden;
 }
 
 .nav-menu {
@@ -155,15 +154,12 @@ h3 {
   height: 100%;
   max-width: 500px;
   border-radius: 5px;
-  display: flex;
-  flex-direction: column;
 }
 
 .rainydays-section {
   background-color: #ffffff;
   display: flex;
   width: 90%;
-  flex-direction: row;
   justify-content: center;
   max-width: 1400px;
   gap: 4rem;
@@ -192,15 +188,12 @@ h3 {
   height: 100%;
   max-width: 500px;
   border-radius: 5px;
-  display: flex;
-  flex-direction: column;
 }
 
 .semesterproject-section {
   background-color: #ffffff;
   display: flex;
   width: 90%;
-  flex-direction: row;
   justify-content: center;
   max-width: 1400px;
   gap: 4rem;
@@ -228,15 +221,12 @@ h3 {
   height: 100%;
   max-width: 500px;
   border-radius: 5px;
-  display: flex;
-  flex-direction: column;
 }
 
 .exam-section {
   background-color: #ffffff;
   display: flex;
   width: 90%;
-  flex-direction: row;
   justify-content: center;
   max-width: 1400px;
   gap: 4rem;
@@ -304,6 +294,7 @@ h3 {
   color: #01013d;
   max-width: 1000px;
   font-size: 1.2rem;
+  font-weight: normal;
   line-height: 2rem;
   padding: 20px;
 }
@@ -318,23 +309,35 @@ h4 {
 h5 {
   font-size: 2rem;
   font-weight: normal;
+  color: #01013d;
   padding-bottom: 20px;
   padding-top: 20px;
 }
+.skills-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  padding-top: 10px;
+}
+.skills-logo {
+  width: 40px;
+}
 
-.mygithub-btn {
-  color: #01013d;
-  margin: 0 auto;
-  text-decoration: underline;
+.skills-div {
+  display: flex;
+  align-items: center;
   font-size: 1.2rem;
-  margin-top: 50px;
-  margin-bottom: 20px;
-  transition: 0.3s ease;
-}
-.mygithub-btn:hover {
   color: #2e47df;
-  transition: 0.3s ease;
+  font-weight: bold;
+  gap: 0.5rem;
+  transition: 300ms;
+  transition: transform 0.3s ease !important;
 }
+.skills-div:hover {
+  transform: scale(1.1) !important;
+  cursor: default;
+}
+
 .contact-btn {
   display: flex;
   align-items: center;
@@ -390,11 +393,10 @@ h6 {
 .social-media-icon {
   width: 50px;
   transition: 300ms;
-  transition: background-color 0.3s ease, transform 0.3s ease !important;
+  transition: transform 0.3s ease !important;
 }
 .social-media-icon:hover {
   transform: scale(1.2) !important;
-  border-radius: 5px;
 }
 
 @media (max-width: 800px) {
@@ -469,6 +471,7 @@ h6 {
   h5 {
     font-size: 1.5rem;
     font-weight: normal;
+    color: #01013d;
     padding-bottom: 20px;
     padding-top: 20px;
   }
@@ -477,10 +480,9 @@ h6 {
     background-color: #ffffff;
     display: flex;
     width: 90%;
-    flex-direction: row;
     justify-content: center;
     max-width: 1500px;
-    gap: 4rem;
+    gap: 3rem;
     padding-top: 50px;
     padding-bottom: 50px;
     flex-wrap: wrap;
@@ -492,10 +494,9 @@ h6 {
     background-color: #ffffff;
     display: flex;
     width: 90%;
-    flex-direction: row;
     justify-content: center;
     max-width: 1500px;
-    gap: 4rem;
+    gap: 3rem;
     padding-top: 50px;
     padding-bottom: 50px;
     flex-wrap: wrap;
@@ -507,15 +508,20 @@ h6 {
     background-color: #ffffff;
     display: flex;
     width: 90%;
-    flex-direction: row;
     justify-content: center;
     max-width: 1500px;
-    gap: 4rem;
+    gap: 3rem;
     padding-top: 50px;
     padding-bottom: 50px;
     flex-wrap: wrap;
     margin: 0 auto;
     border-radius: 30px;
+  }
+  .skills-tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding-top: 20px;
   }
 }
 @media (max-width: 385px) {
