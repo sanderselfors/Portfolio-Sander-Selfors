@@ -45,9 +45,7 @@ header {
   justify-content: space-between;
   align-items: center;
   list-style-type: none;
-  font-size: 25px;
-  background-color: #01013d;
-  opacity: 90%;
+  background-color: rgba(1, 1, 61, 0.8);
   z-index: 1;
   transition: background-color 0.3s ease-in-out;
   transition: transform 0.3s;
@@ -132,7 +130,6 @@ h1 {
   font-size: 3rem;
   line-height: 5rem;
   font-weight: normal;
-  max-width: 500px;
   padding-top: 20px;
   padding: 10px;
   text-align: center;
@@ -417,12 +414,12 @@ h6 {
   .nav-menu {
     position: fixed;
     left: -150%;
-    top: 70px;
-    gap: 0;
+    top: 0;
+    gap: 1rem;
     flex-direction: column;
-    background-color: #01013d;
     width: 100%;
     text-align: center;
+    background-color: rgba(1, 1, 61, 0.8);
     transition: 0.3s;
   }
   .nav-item {
@@ -430,8 +427,14 @@ h6 {
   }
   .nav-menu.active {
     left: 0%;
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+  .nav-logo {
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 40px;
+    z-index: 1;
   }
   .sander-pic {
     width: 150px;
@@ -440,12 +443,10 @@ h6 {
   }
   h1 {
     color: #ffffff;
-    font-size: 2.1rem;
+    font-size: 2.5rem;
     line-height: 4rem;
     font-weight: normal;
-    max-width: 400px;
     padding-top: 20px;
-    padding: 10px;
     text-align: center;
   }
   h2 {
@@ -515,5 +516,15 @@ h6 {
     flex-wrap: wrap;
     margin: 0 auto;
     border-radius: 30px;
+  }
+}
+@media (max-width: 385px) {
+  h1 {
+    color: #ffffff;
+    font-size: 2.1rem;
+    line-height: 4rem;
+    font-weight: normal;
+    padding-top: 20px;
+    text-align: center;
   }
 }
