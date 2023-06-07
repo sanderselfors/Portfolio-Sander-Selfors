@@ -468,6 +468,13 @@ h6 {
     font-weight: bold;
     padding: 30px;
   }
+  h5 {
+    font-size: 1.7rem;
+    font-weight: normal;
+    color: #01013d;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
 
   .rainydays-section {
     background-color: #ffffff;
