@@ -253,7 +253,7 @@ h3 {
   margin: 0 auto;
   text-decoration: underline;
   font-size: 1.2rem;
-  margin-top: 50px;
+  margin-top: 40px;
   margin-bottom: 20px;
   transition: color 0.3s ease, transform 0.3s ease !important;
 }
@@ -433,89 +433,40 @@ h6 {
     padding-bottom: 40px;
   }
   .nav-logo {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 40px;
     z-index: 1;
   }
   .sander-pic {
     width: 150px;
-    margin: 0 auto;
-    padding-top: 20px;
   }
   h1 {
-    color: #ffffff;
     font-size: 2.4rem;
-    line-height: 4rem;
-    font-weight: normal;
-    padding-top: 20px;
-    text-align: center;
   }
   h2 {
-    color: #ffffff;
     font-size: 2.5rem;
-    font-weight: normal;
-    text-align: center;
-    font-weight: bold;
-    padding: 10px;
-    padding-bottom: 50px;
   }
   h4 {
-    color: #01013d;
     font-size: 2.5rem;
-    font-weight: normal;
-    text-align: center;
-    font-weight: bold;
-    padding: 30px;
   }
   h5 {
     font-size: 1.7rem;
-    font-weight: normal;
-    color: #01013d;
-    padding-bottom: 20px;
-    padding-top: 20px;
   }
 
   .rainydays-section {
-    background-color: #ffffff;
-    display: flex;
-    width: 90%;
-    justify-content: center;
-    max-width: 1500px;
     gap: 3rem;
     padding-top: 50px;
     padding-bottom: 50px;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    border-radius: 30px;
   }
 
   .semesterproject-section {
-    background-color: #ffffff;
-    display: flex;
-    width: 90%;
-    justify-content: center;
-    max-width: 1500px;
     gap: 3rem;
     padding-top: 50px;
     padding-bottom: 50px;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    border-radius: 30px;
   }
 
   .exam-section {
-    background-color: #ffffff;
-    display: flex;
-    width: 90%;
-    justify-content: center;
-    max-width: 1500px;
     gap: 3rem;
     padding-top: 50px;
     padding-bottom: 50px;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    border-radius: 30px;
   }
   .skills-tools {
     display: flex;
@@ -526,11 +477,6 @@ h6 {
 }
 @media (max-width: 385px) {
   h1 {
-    color: #ffffff;
     font-size: 2.1rem;
-    line-height: 4rem;
-    font-weight: normal;
-    padding-top: 20px;
-    text-align: center;
   }
 }
