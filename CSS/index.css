@@ -149,6 +149,28 @@ h3 {
   color: #01013d;
   text-align: center;
 }
+h4 {
+  color: #01013d;
+  font-size: 3rem;
+  font-weight: normal;
+  text-align: center;
+  font-weight: bold;
+  padding: 30px;
+}
+h5 {
+  font-size: 2rem;
+  font-weight: normal;
+  color: #01013d;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+h6 {
+  font-size: 2rem;
+  font-weight: normal;
+  padding-top: 10px;
+  text-align: center;
+  color: #ffffff;
+}
 .rainydays-pic {
   width: 90%;
   height: 100%;
@@ -298,21 +320,7 @@ h3 {
   line-height: 2rem;
   padding: 20px;
 }
-h4 {
-  color: #01013d;
-  font-size: 3rem;
-  font-weight: normal;
-  text-align: center;
-  font-weight: bold;
-  padding: 30px;
-}
-h5 {
-  font-size: 2rem;
-  font-weight: normal;
-  color: #01013d;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
+
 .skills-tools {
   display: flex;
   flex-wrap: wrap;
@@ -367,13 +375,6 @@ h5 {
 footer {
   width: 100%;
   height: 100%;
-}
-h6 {
-  font-size: 2rem;
-  font-weight: normal;
-  padding-top: 10px;
-  text-align: center;
-  color: #ffffff;
 }
 
 .copyright {
@@ -471,10 +472,7 @@ h6 {
     padding-bottom: 50px;
   }
   .skills-tools {
-    display: flex;
-    flex-wrap: wrap;
     gap: 3rem;
-    padding-top: 20px;
   }
 }
 @media (max-width: 385px) {
