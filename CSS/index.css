@@ -145,7 +145,7 @@ h2 {
 h3 {
   font-size: 2rem;
   padding-bottom: 30px;
-  font-weight: normal;
+  font-weight: lighter;
   color: #01013d;
   text-align: center;
 }
@@ -159,14 +159,14 @@ h4 {
 }
 h5 {
   font-size: 2rem;
-  font-weight: normal;
+  font-weight: lighter;
   color: #01013d;
   padding-bottom: 20px;
   padding-top: 20px;
 }
 h6 {
   font-size: 2rem;
-  font-weight: normal;
+  font-weight: lighter;
   padding-top: 10px;
   text-align: center;
   color: #ffffff;
@@ -193,7 +193,7 @@ h6 {
 }
 
 .rainydays-text {
-  font-weight: normal;
+  font-weight: lighter;
   font-size: 1.2rem;
   width: 500px;
   padding-left: 20px;
@@ -227,7 +227,7 @@ h6 {
 }
 
 .semesterproject-text {
-  font-weight: normal;
+  font-weight: lighter;
   font-size: 1.2rem;
   width: 500px;
   padding-left: 20px;
@@ -260,7 +260,7 @@ h6 {
 }
 
 .exam-text {
-  font-weight: normal;
+  font-weight: lighter;
   font-size: 1.2rem;
   width: 500px;
   padding-left: 20px;
@@ -316,7 +316,7 @@ h6 {
   color: #01013d;
   max-width: 1000px;
   font-size: 1.2rem;
-  font-weight: normal;
+  font-weight: lighter;
   line-height: 2rem;
   padding: 20px;
 }
@@ -381,6 +381,7 @@ footer {
   color: #ffffff;
   text-align: center;
   font-size: 1rem;
+  font-weight: lighter;
   padding-bottom: 30px;
   padding-top: 20px;
 }
