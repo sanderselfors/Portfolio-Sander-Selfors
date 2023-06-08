@@ -192,7 +192,7 @@ h6 {
 }
 
 .rainydays-text {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.2rem;
   width: 500px;
   padding-left: 20px;
@@ -226,7 +226,7 @@ h6 {
 }
 
 .semesterproject-text {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.2rem;
   width: 500px;
   padding-left: 20px;
@@ -259,7 +259,7 @@ h6 {
 }
 
 .exam-text {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.2rem;
   width: 500px;
   padding-left: 20px;
@@ -315,7 +315,7 @@ h6 {
   color: #01013d;
   max-width: 1000px;
   font-size: 1.2rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 2rem;
   padding: 20px;
 }
