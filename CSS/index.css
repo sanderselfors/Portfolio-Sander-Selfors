@@ -145,7 +145,7 @@ h2 {
 h3 {
   font-size: 2rem;
   padding-bottom: 30px;
-  font-weight: 300;
+  font-weight: 400;
   color: #01013d;
   text-align: center;
 }
@@ -158,14 +158,14 @@ h4 {
 }
 h5 {
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: 400;
   color: #01013d;
   padding-bottom: 20px;
   padding-top: 20px;
 }
 h6 {
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: 400;
   padding-top: 10px;
   text-align: center;
   color: #ffffff;
