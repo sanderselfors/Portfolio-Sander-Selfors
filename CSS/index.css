@@ -128,7 +128,7 @@ h1 {
   color: #ffffff;
   font-size: 3rem;
   line-height: 5rem;
-  font-weight: normal;
+  font-weight: 200;
   padding-top: 20px;
   padding: 10px;
   text-align: center;
@@ -138,35 +138,34 @@ h2 {
   color: #ffffff;
   font-size: 3rem;
   text-align: center;
-  font-weight: bold;
+  font-weight: 600;
   padding: 10px;
   padding-bottom: 50px;
 }
 h3 {
   font-size: 2rem;
   padding-bottom: 30px;
-  font-weight: normal;
+  font-weight: 300;
   color: #01013d;
   text-align: center;
 }
 h4 {
   color: #01013d;
   font-size: 3rem;
-  font-weight: normal;
   text-align: center;
-  font-weight: bold;
+  font-weight: 600;
   padding: 30px;
 }
 h5 {
   font-size: 2rem;
-  font-weight: normal;
+  font-weight: 300;
   color: #01013d;
   padding-bottom: 20px;
   padding-top: 20px;
 }
 h6 {
   font-size: 2rem;
-  font-weight: normal;
+  font-weight: 300;
   padding-top: 10px;
   text-align: center;
   color: #ffffff;
@@ -193,7 +192,7 @@ h6 {
 }
 
 .rainydays-text {
-  font-weight: normal;
+  font-weight: 300;
   font-size: 1.2rem;
   width: 500px;
   padding-left: 20px;
@@ -227,7 +226,7 @@ h6 {
 }
 
 .semesterproject-text {
-  font-weight: normal;
+  font-weight: 300;
   font-size: 1.2rem;
   width: 500px;
   padding-left: 20px;
@@ -260,7 +259,7 @@ h6 {
 }
 
 .exam-text {
-  font-weight: normal;
+  font-weight: 300;
   font-size: 1.2rem;
   width: 500px;
   padding-left: 20px;
@@ -316,7 +315,7 @@ h6 {
   color: #01013d;
   max-width: 1000px;
   font-size: 1.2rem;
-  font-weight: normal;
+  font-weight: 300;
   line-height: 2rem;
   padding: 20px;
 }
@@ -381,6 +380,7 @@ footer {
   color: #ffffff;
   text-align: center;
   font-size: 1rem;
+  font-weight: 300;
   padding-bottom: 30px;
   padding-top: 20px;
 }
@@ -440,7 +440,7 @@ footer {
     width: 150px;
   }
   h1 {
-    font-size: 2.4rem;
+    font-size: 2.3rem;
     line-height: 4.5rem;
     padding-top: 20px;
   }
@@ -477,6 +477,15 @@ footer {
 }
 @media (max-width: 385px) {
   h1 {
-    font-size: 2.1rem;
+    font-size: 1.9rem;
+  }
+  .website-btn {
+    font-size: 1.1rem;
+  }
+  .contact-btn {
+    font-size: 1.1rem;
+  }
+  .github-btn {
+    font-size: 1.1rem;
   }
 }
