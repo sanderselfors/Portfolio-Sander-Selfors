@@ -10,7 +10,7 @@
 
 Portfolio Website Evaluation
 
-I have evaluated my portfolio website to assess its design, functionality, and user experience. As a student, my website aims to showcase my skills as a front-end developer and highlight my three school projects. The color scheme, inspired by the header image, predominantly features shades of blue. I have incorporated animations to enhance the overall visual appeal and make the site more engaging.
+I have evaluated my portfolio website to assess its design, functionality, and user experience. As a newly finished student, my website aims to showcase my skills as a front-end developer and highlight my three school projects. The color scheme, inspired by the header image, predominantly features shades of blue. I have incorporated animations to enhance the overall visual appeal and make the site more engaging.
 
 Design Evaluation:
 The portfolio website has a visually pleasing design with a color scheme primarily composed of shades of blue. The layout is structured to showcase my school projects as cards, allowing visitors to easily browse and learn about each project. The typography and use of relevant images contribute to the professional and modern look of the site.
