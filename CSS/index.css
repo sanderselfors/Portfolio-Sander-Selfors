@@ -170,14 +170,14 @@ h6 {
   text-align: center;
   color: #ffffff;
 }
-.rainydays-pic {
+.bidit-pic {
   width: 90%;
   height: 100%;
   max-width: 500px;
   border-radius: 5px;
 }
 
-.rainydays-section {
+.bidit-section {
   background-color: #ffffff;
   display: flex;
   width: 90%;
@@ -191,7 +191,7 @@ h6 {
   border-radius: 30px;
 }
 
-.rainydays-text {
+.bidit-text {
   font-weight: 300;
   font-size: 1.2rem;
   width: 500px;
@@ -204,14 +204,14 @@ h6 {
   flex-direction: column;
 }
 
-.semesterproject-pic {
+.holidaze-pic {
   width: 90%;
   height: 100%;
   max-width: 500px;
   border-radius: 5px;
 }
 
-.semesterproject-section {
+.holidaze-section {
   background-color: #ffffff;
   display: flex;
   width: 90%;
@@ -225,7 +225,7 @@ h6 {
   border-radius: 30px;
 }
 
-.semesterproject-text {
+.holidaze-text {
   font-weight: 300;
   font-size: 1.2rem;
   width: 500px;
@@ -457,13 +457,13 @@ footer {
     font-size: 1.7rem;
   }
 
-  .rainydays-section {
+  .bidit-section {
     gap: 3rem;
     padding-top: 50px;
     padding-bottom: 50px;
   }
 
-  .semesterproject-section {
+  .holidaze-section {
     gap: 3rem;
     padding-top: 50px;
     padding-bottom: 50px;
