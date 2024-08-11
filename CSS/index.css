@@ -123,6 +123,10 @@ a {
 .about-button:hover::after {
   width: 100%;
 }
+.grade-btn {
+  padding-top: 20px;
+  font-weight: bolder;
+}
 
 h1 {
   color: #ffffff;
